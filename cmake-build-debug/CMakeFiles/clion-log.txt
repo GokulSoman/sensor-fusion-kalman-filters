@@ -1,4 +1,1 @@
-"/Users/neelrast/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/192.5728.100/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/cmake-build-debug
+CMakeLists.txt not found in /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters Select CMakeLists.txt file...
