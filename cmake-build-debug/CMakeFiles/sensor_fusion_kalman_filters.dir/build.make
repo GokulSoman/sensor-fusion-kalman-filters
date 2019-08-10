@@ -57,9 +57,22 @@ include CMakeFiles/sensor_fusion_kalman_filters.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/sensor_fusion_kalman_filters.dir/flags.make
 
+CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.o: CMakeFiles/sensor_fusion_kalman_filters.dir/flags.make
+CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.o: ../kalman_filter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.o -c /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/kalman_filter.cpp
+
+CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/kalman_filter.cpp > CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.i
+
+CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/kalman_filter.cpp -o CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.s
+
 CMakeFiles/sensor_fusion_kalman_filters.dir/main.cpp.o: CMakeFiles/sensor_fusion_kalman_filters.dir/flags.make
 CMakeFiles/sensor_fusion_kalman_filters.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sensor_fusion_kalman_filters.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sensor_fusion_kalman_filters.dir/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sensor_fusion_kalman_filters.dir/main.cpp.o -c /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/main.cpp
 
 CMakeFiles/sensor_fusion_kalman_filters.dir/main.cpp.i: cmake_force
@@ -70,17 +83,34 @@ CMakeFiles/sensor_fusion_kalman_filters.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sensor_fusion_kalman_filters.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/main.cpp -o CMakeFiles/sensor_fusion_kalman_filters.dir/main.cpp.s
 
+CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.o: CMakeFiles/sensor_fusion_kalman_filters.dir/flags.make
+CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.o: ../tracking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.o -c /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/tracking.cpp
+
+CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/tracking.cpp > CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.i
+
+CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/tracking.cpp -o CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.s
+
 # Object files for target sensor_fusion_kalman_filters
 sensor_fusion_kalman_filters_OBJECTS = \
-"CMakeFiles/sensor_fusion_kalman_filters.dir/main.cpp.o"
+"CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.o" \
+"CMakeFiles/sensor_fusion_kalman_filters.dir/main.cpp.o" \
+"CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.o"
 
 # External object files for target sensor_fusion_kalman_filters
 sensor_fusion_kalman_filters_EXTERNAL_OBJECTS =
 
+sensor_fusion_kalman_filters: CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.o
 sensor_fusion_kalman_filters: CMakeFiles/sensor_fusion_kalman_filters.dir/main.cpp.o
+sensor_fusion_kalman_filters: CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.o
 sensor_fusion_kalman_filters: CMakeFiles/sensor_fusion_kalman_filters.dir/build.make
 sensor_fusion_kalman_filters: CMakeFiles/sensor_fusion_kalman_filters.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sensor_fusion_kalman_filters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable sensor_fusion_kalman_filters"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sensor_fusion_kalman_filters.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

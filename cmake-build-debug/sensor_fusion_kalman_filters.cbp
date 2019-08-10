@@ -80,7 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/kalman_filter.cpp">
+			<Option target="sensor_fusion_kalman_filters"/>
+		</Unit>
+		<Unit filename="/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/kalman_filter.h">
+			<Option target="sensor_fusion_kalman_filters"/>
+		</Unit>
 		<Unit filename="/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/main.cpp">
+			<Option target="sensor_fusion_kalman_filters"/>
+		</Unit>
+		<Unit filename="/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/measurement_package.h">
+			<Option target="sensor_fusion_kalman_filters"/>
+		</Unit>
+		<Unit filename="/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/tracking.cpp">
+			<Option target="sensor_fusion_kalman_filters"/>
+		</Unit>
+		<Unit filename="/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/tracking.h">
 			<Option target="sensor_fusion_kalman_filters"/>
 		</Unit>
 		<Unit filename="/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/CMakeLists.txt">

@@ -123,6 +123,33 @@ sensor_fusion_kalman_filters/fast:
 	$(MAKE) -f CMakeFiles/sensor_fusion_kalman_filters.dir/build.make CMakeFiles/sensor_fusion_kalman_filters.dir/build
 .PHONY : sensor_fusion_kalman_filters/fast
 
+kalman_filter.o: kalman_filter.cpp.o
+
+.PHONY : kalman_filter.o
+
+# target to build an object file
+kalman_filter.cpp.o:
+	$(MAKE) -f CMakeFiles/sensor_fusion_kalman_filters.dir/build.make CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.o
+.PHONY : kalman_filter.cpp.o
+
+kalman_filter.i: kalman_filter.cpp.i
+
+.PHONY : kalman_filter.i
+
+# target to preprocess a source file
+kalman_filter.cpp.i:
+	$(MAKE) -f CMakeFiles/sensor_fusion_kalman_filters.dir/build.make CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.i
+.PHONY : kalman_filter.cpp.i
+
+kalman_filter.s: kalman_filter.cpp.s
+
+.PHONY : kalman_filter.s
+
+# target to generate assembly for a file
+kalman_filter.cpp.s:
+	$(MAKE) -f CMakeFiles/sensor_fusion_kalman_filters.dir/build.make CMakeFiles/sensor_fusion_kalman_filters.dir/kalman_filter.cpp.s
+.PHONY : kalman_filter.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/sensor_fusion_kalman_filters.dir/build.make CMakeFiles/sensor_fusion_kalman_filters.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tracking.o: tracking.cpp.o
+
+.PHONY : tracking.o
+
+# target to build an object file
+tracking.cpp.o:
+	$(MAKE) -f CMakeFiles/sensor_fusion_kalman_filters.dir/build.make CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.o
+.PHONY : tracking.cpp.o
+
+tracking.i: tracking.cpp.i
+
+.PHONY : tracking.i
+
+# target to preprocess a source file
+tracking.cpp.i:
+	$(MAKE) -f CMakeFiles/sensor_fusion_kalman_filters.dir/build.make CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.i
+.PHONY : tracking.cpp.i
+
+tracking.s: tracking.cpp.s
+
+.PHONY : tracking.s
+
+# target to generate assembly for a file
+tracking.cpp.s:
+	$(MAKE) -f CMakeFiles/sensor_fusion_kalman_filters.dir/build.make CMakeFiles/sensor_fusion_kalman_filters.dir/tracking.cpp.s
+.PHONY : tracking.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... sensor_fusion_kalman_filters"
+	@echo "... kalman_filter.o"
+	@echo "... kalman_filter.i"
+	@echo "... kalman_filter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tracking.o"
+	@echo "... tracking.i"
+	@echo "... tracking.s"
 .PHONY : help
 
 
