@@ -51,7 +51,7 @@ Here is the main protocol that main.cpp uses for uWebSocketIO in communicating w
 
 ["rmse_vy”]
 
-The final output of this simulation will look something like this [video]('./output.mov').
+The final output of this simulation will look something like this [video](output.mov).
 
 ## Dependencies
 
