@@ -1,9 +1,11 @@
-# Sensor Fusion Module implementing Extended Kalman Filters for LIDAR/RADAR Input processing
+# Sensor Fusion Module implementing Extended Kalman Filters for LIDAR/RADAR Input Processing
+
+
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 ## Intro to Kalman Filters.
 
 A car equipped with sensors like LIDAR and RADAR on the outside, can detect objects moving around it’s range: for example, the sensors might detect a pedestrian, or even a bicycle. 
-
 
 
 <img src="kalman-filter-map.png">
