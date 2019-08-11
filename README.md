@@ -1,4 +1,4 @@
-# Sensor Fusion Module implementing Extended Kalman Filters for LIDAR/RADAR inputs
+# Sensor Fusion Module implementing Extended Kalman Filters for LIDAR/RADAR Input processing
 
 ## Intro to Kalman Filters.
 
