@@ -1,5 +1,27 @@
 # Sensor Fusion Module implementing Extended Kalman Filters for LIDAR/RADAR inputs
 
+## Intro to Kalman Filters.
+
+A car equipped with sensors like LIDAR and RADAR on the outside, can detect objects moving around it’s range: for example, the sensors might detect a pedestrian, or even a bicycle. 
+
+
+
+<img src="kalman-filter-map.png">
+
+
+
+This is achieved by computing an extended kalman filter which combines both data obtained from LIDAR and RADAR simultaniously to measure the moving object’s velocity and relative position to car. For variety, let's step through the Kalman Filter algorithm ( architecture shown in above figure. ) using the bicycle example to understand how this computation really works:
+
+- **first measurement** - the filter will receive initial measurements of the bicycle's position relative to the car. These measurements will come from a radar or lidar sensor.
+- **initialize state and covariance matrices** - the filter will initialize the bicycle's position based on the first measurement.
+- then the car will receive another sensor measurement after a time period Δ*t*.
+- **predict** - the algorithm will predict where the bicycle will be after time Δ*t*. One basic way to predict the bicycle location after Δ*t* is to assume the bicycle's velocity is constant; thus the bicycle will have moved velocity Δ*t*. In the extended Kalman filter lesson, we will assume the velocity is constant.
+- **update** - the filter compares the "predicted" location with what the sensor measurement says. The predicted location and the measured location are combined to give an updated location. The Kalman filter will put more weight on either the predicted location or the measured location depending on the uncertainty of each value.
+- Based on this belief, the car will then receive another sensor measurement after a time period Δ*t* to make it’s next decisive step. 
+- The algorithm then does another **predict** and **update** step which will tell the car about the belief of bicycle’s position relative to vehicle.
+
+In this project I tried to implement the same extended kalman architecture to run on a simulated LIDAR and RADAR data as inputs. This module runs the above mentioned algorithm and shows it’s belief output to further track car’s distance from the relative nearby object. For this project, the choice of language was C++ as these computations of beliefs need to happen quick, which calls for a more precise control over variable addresses and faster callbacks for calculated matrix multiplications.  
+
 ## Dependencies
 
 * cmake >= 3.5
