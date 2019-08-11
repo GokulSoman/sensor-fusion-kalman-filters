@@ -22,7 +22,9 @@ This is achieved by computing an extended kalman filter which combines both data
 - Based on this belief, the car will then receive another sensor measurement after a time period Δ*t* to make it’s next decisive step. 
 - The algorithm then does another **predict** and **update** step which will tell the car about the belief of bicycle’s position relative to vehicle.
 
-In this project I tried to implement the same extended kalman architecture to run on a simulated LIDAR and RADAR data as inputs. This module runs the above mentioned algorithm and shows it’s belief output to further track car’s distance from the relative nearby object. For this project, the choice of language was C++ as these computations of beliefs need to happen quick, which calls for a more precise control over variable addresses and faster callbacks for calculated matrix multiplications.  
+In this project I tried to implement the same extended kalman architecture to run on a simulated LIDAR and RADAR data as inputs. This module runs the above mentioned algorithm and shows it’s belief output to further track car’s distance from the relative nearby objects. 
+
+For this project, the choice of language was C++ as these computations of beliefs need to happen quick, which calls for a more precise control over variable addresses and faster callbacks for calculated matrix multiplications.  
 
 ## Dependencies
 
