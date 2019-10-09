@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/build",
+  "command": "/usr/local/bin/g++-9   -I/usr/local/include -I/usr/local/opt/openssl/include  -Wall -g   -std=c++11 -o CMakeFiles/ExtendedKF.dir/src/main.cpp.o -c /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/src/main.cpp",
+  "file": "/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/src/main.cpp"
+},
+{
+  "directory": "/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/build",
+  "command": "/usr/local/bin/g++-9   -I/usr/local/include -I/usr/local/opt/openssl/include  -Wall -g   -std=c++11 -o CMakeFiles/ExtendedKF.dir/src/tools.cpp.o -c /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/src/tools.cpp",
+  "file": "/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/src/tools.cpp"
+},
+{
+  "directory": "/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/build",
+  "command": "/usr/local/bin/g++-9   -I/usr/local/include -I/usr/local/opt/openssl/include  -Wall -g   -std=c++11 -o CMakeFiles/ExtendedKF.dir/src/FusionEKF.cpp.o -c /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/src/FusionEKF.cpp",
+  "file": "/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/src/FusionEKF.cpp"
+},
+{
+  "directory": "/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/build",
+  "command": "/usr/local/bin/g++-9   -I/usr/local/include -I/usr/local/opt/openssl/include  -Wall -g   -std=c++11 -o CMakeFiles/ExtendedKF.dir/src/kalman_filter.cpp.o -c /Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/src/kalman_filter.cpp",
+  "file": "/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/src/kalman_filter.cpp"
+}
+]

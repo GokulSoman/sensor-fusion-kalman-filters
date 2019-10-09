@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/src/main.cpp" "/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/build/CMakeFiles/ExtendedKF.dir/src/main.cpp.o"
   "/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/src/tools.cpp" "/Users/neelrast/Documents/Git/neelrast/sensor-fusion-kalman-filters/build/CMakeFiles/ExtendedKF.dir/src/tools.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
